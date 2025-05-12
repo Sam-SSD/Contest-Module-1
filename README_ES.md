@@ -27,7 +27,7 @@ Este proyecto tiene como objetivo construir un **sistema interactivo de gestión
 
 ## 🧠 Lógica Implementada
 
-- Uso de una clase `Inventario` que encapsula toda la lógica del sistema.
+- Uso de una clase `Inventory` que encapsula toda la lógica del sistema.
 - Separación del código en módulos:
   - `main.py` gestiona la interfaz de usuario y el flujo general.
   - `inventory.py` contiene toda la lógica de negocio.
@@ -55,7 +55,7 @@ Este proyecto tiene como objetivo construir un **sistema interactivo de gestión
 ```
 inventory_app/
 ├── main.py         # Menú interactivo y control general del flujo
-├── inventory.py    # Clase Inventario con toda la lógica de negocio
+├── inventory.py    # Clase Inventory con toda la lógica de negocio
 └── utils.py        # Validación modular de entradas del usuario
 ```
 
@@ -67,7 +67,7 @@ inventory_app/
   Contiene las funciones del menú (`manejar_agregar_producto`, `manejar_buscar_producto`, etc.) y la ejecución principal del programa.
 
 - **`inventory.py`**  
-  Define la clase `Inventario`, que permite gestionar productos (agregar, buscar, actualizar, eliminar, mostrar e inventariar).
+  Define la clase `Inventory`, que permite gestionar productos (agregar, buscar, actualizar, eliminar, mostrar e inventariar).
 
 - **`utils.py`**  
   Proporciona funciones para validar entradas del usuario: nombre (str), precio (float) y cantidad (int), de forma reutilizable.
